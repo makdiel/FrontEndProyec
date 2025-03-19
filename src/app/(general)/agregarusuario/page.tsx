@@ -6,7 +6,14 @@ import React from 'react'
 
 export default function page() {
 
-  const {id_usuario,setId,nombre_usuario,setNombreUsuario,contrasena,setContrasena,nombre_completo,setNombreCompleto,unidad_area,setUnidadArea,administrador,setAdministrador, agregarUsuario,usuario}= useUsuaarioContext()
+  const {
+    id_usuario,setId,
+    nombre_usuario,setNombreUsuario,
+    contrasena,setContrasena,
+    nombre_completo,setNombreCompleto,
+    unidad_area,setUnidadArea,
+    administrador,setAdministrador, 
+    agregarUsuario,usuario}= useUsuaarioContext()
 
   function crearUsuario(){
 
